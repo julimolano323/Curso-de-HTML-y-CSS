@@ -1,0 +1,72 @@
+.fadeIn{
+    animation-fill-mode: both;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: fadeIn;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fadeInDown{
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadeInDown;
+}
+@keyframes fadeInDown{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+.fadeInUp{
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadeInUp;
+}
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+.colors{
+    border-color: #e4e4e4;
+    animation-name: colors;
+    -webkit-animation-name: colors;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0%   {border-color: red;}
+    25%  {border-color: yellow;}
+    50%  {border-color: blue;}
+    100% {border-color: green;}
+}

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* -------------------Variables */
+:root{
+  --morado-color:#433183;
+  --box:0px 0px 16px #0000003b;
+  --box-hover:0px 0px 6px rgba(94, 193, 247, 0.58);
+}
+
+/* -------------------Variables */
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: 'Exo', sans-serif;
+}
+/* ----------------------Aquí inicia el navbar */
+
+nav{
+  display: flex;
+  background-color: var(--morado-color);
+  padding: 15px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display:flex;
+}
+nav li{
+  padding-right: 10px;
+  list-style: none;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover{
+  color: gray;
+}
+nav img{
+  height: 35px;
+}
+
+/* ----------------------Aquí finaliza el navbar */
+
+/* ----------------------Aquí inicia el contenido */
+label{
+  font-size: 15px;
+}
+
+h3{
+  font-size: 27px;
+}
+h4{
+  font-size: 17px;
+}
+.main_section{
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.products{
+  display: flex;
+  background-image: url("../images/curve.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  justify-content: center;
+}
+.product{
+  display: inherit;
+  padding: 10px;
+  margin-top: -30%;
+  height: 330px;
+}
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: var(--box);
+}
+.content:hover{
+  box-shadow: var(--box-hover);
+}
+.image_content{
+  text-align: center;
+  background-color: white;
+}
+.main_button{
+  background-color: var(--morado-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color:white;
+  border:none;
+  cursor:pointer;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.main_button:hover{
+  background-color: #150d33;
+}
+.section_planets{
+  display: flex;
+  justify-content: center;
+  padding: 5% 10%;
+}
+.planet{
+  padding: 3%
+}
+.planets_title{
+  text-align: center;
+}
+.planets_img{
+  width: 100%;
+  /* text-align: center; */
+}
+.section_testimonial{
+  padding: 5%;
+  border-top: 1px solid #e4e4e4;
+}
+.testimonial_content{
+  display: flex;
+  justify-content: center;
+}
+.testimonial_title{
+  text-align: center;
+}
+.testimonial{
+  margin: 10px;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0px 0px 6px #0000003b;
+}
+.testimonial:hover{
+  box-shadow: var(--box-hover);
+}
+.testimonial_img{
+  width: 100%;
+}
+.wrap_testimonial{
+  padding: 8%;
+}
+.wrap_testimonial h4{
+  margin: 2px;
+}
+.wrap_testimonial p{
+  margin-top: 2px;
+}
+
+.modulo_pago{
+  background-color: white;
+  box-shadow: var(--box);
+  padding: 5%;
+}
+.modulo_pago_images{
+  max-width: 150px;
+  text-align: center;
+  margin: auto;
+}
+.modulo_pago h3, p{
+  margin: auto;
+}
+.data{
+  margin:5px 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+.modulo_pago .main_button{
+  margin-top: 10px;
+}
+/* ----------------------Aquí finaliza el contenido */
+
+/* ----------------------Aquí inicia el footer */
+
+.footer{
+  display: flex;
+  background-color: rgba(94, 193, 247, 1);
+  padding: 15px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul{
+  display:flex;
+}
+.footer li{
+  padding-right: 10px;
+  list-style: none;
+}
+.footer li a{
+  color: white;
+  text-decoration: none;
+}
+.footer li a:hover{
+  color: gray;
+}
+.footer img{
+  height: 35px;
+}
+
+/* ----------------------Aquí finaliza el footer */

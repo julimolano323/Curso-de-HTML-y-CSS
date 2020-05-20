@@ -1,0 +1,17 @@
+@media (max-width:700px){
+   
+    .products{
+        display: inherit;
+        height: auto;
+        max-height: none;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 5%;
+    }
+    .section_planets, .testimonial_content{
+        display: inherit;
+    }
+}
